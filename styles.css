@@ -1,16 +1,17 @@
 * {
   box-sizing: border-box;
+  font-family: Georgia, serif;
 }
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  background: aqua;
   color: #222;
 }
 
 .app {
-  max-width: 480px;
+  max-width: 1000px;
   margin: 3rem auto;
   padding: 1.25rem;
   background: #fff;
@@ -21,6 +22,7 @@ body {
 .app__title {
   margin: 0 0 1rem;
   text-align: center;
+  color: red; 
 }
 
 .todo-form {
@@ -39,7 +41,7 @@ body {
   padding: 0.6rem 0.9rem;
   border: none;
   border-radius: 4px;
-  background: #0d6efd;
+  background: red;
   color: #fff;
   cursor: pointer;
 }
